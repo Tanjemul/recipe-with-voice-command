@@ -44,5 +44,5 @@ On local machine, open browser and go to: http://127.0.0.1:5000
    Only one end point is enough for this project:
 
    ```bash
-   curl --location 'http://localhost:5000/transcribe' \
-   --form 'file=@"/C:/Users/User_Name/Downloads/audio_file.mp3"'
+      curl --location 'http://localhost:5000/transcribe' \
+   --form 'file=@"/C:/Users/User_PC/Downloads/audio_file.mp3"'
